@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Love';
+    src: url('fonts/love larry ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'work sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+h1{
+    font-family: 'love', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'kaushan script', sans-serif;
+    font-size: 2em;
+}

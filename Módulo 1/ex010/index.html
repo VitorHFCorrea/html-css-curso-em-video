@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no Github.</a></p>
+    <!-- target blank + relation external = browser abre nova guia ao clicar em um link-->
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube</a></p>
+
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p>
+    <!--Links internos nao precisam de links completos, contanto que estejam na mesma pasta.-->
+    <!-- target self indica ao site que essa página pertence ao mesmo site e a abre na mesma aba-->
+
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/Currículo (2) (1).pdf" download="Currículo (2) (1).pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/Currículo (2) (1).rar" download="Currículo (2) (1).rar" type="application/zip">Livro compactado em RAR</a></li>
+    </ul>
+
+</body>
+</html>

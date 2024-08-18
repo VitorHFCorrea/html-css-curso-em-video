@@ -1,0 +1,34 @@
+body{
+    background-color: #1b1c1b;
+    color: white;
+    font-family: 'MD Sans', sans-serif;
+    text-align: center;
+}
+
+.linha1{
+    display: flex;
+    justify-content: center;
+}
+
+.linha2{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.voltar{
+    margin: 20px;
+}
+
+
+
