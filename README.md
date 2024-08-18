@@ -4,6 +4,7 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
  
  Confira meus estudos:
+ <br>
  <a href="https://vitorhfcorrea.github.io/html-css-curso-em-video/modulo01/ex001/">Exercício 01</a>
  <br>
  <a href="https://vitorhfcorrea.github.io/html-css-curso-em-video/modulo01/ex002/">Exercício 02</a>
