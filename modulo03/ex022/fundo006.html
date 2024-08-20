@@ -7,16 +7,28 @@
     <style>
         body{
             height: 97vh;
+            
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* Shorthand - Background
+                color > image > position >/> size > repeat > attachment
+
+                substituir o " " entre position e size por "/"
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 500px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
