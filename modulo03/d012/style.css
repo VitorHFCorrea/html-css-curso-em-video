@@ -4,8 +4,8 @@
 
 :root{
     --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
-    --fonte-poesia: 'Sriracha', Arial, sans-serif;
-    --fonte-moderna: 'Passion One', Arial, sans-serif;
+    --fonte-poesia: 'Sriracha', cursive;
+    --fonte-moderna: 'Passion One', cursive;
 }
 
 *{
@@ -15,6 +15,7 @@
 
 html, body{
     min-height: 100vh;
+    font-family: var(--fonte-padrao);
 }
 
 header{
@@ -30,12 +31,12 @@ header > h1{
     font-family: var(--fonte-moderna);
     font-weight: lighter;
     font-variant: small-caps;
-    font-size: 72px;
+    font-size: 10vw;
 }
 
 header > p{
     font-family: var(--fonte-padrao);
-    font-size: 20px;
+    font-size: 1em;
     font-weight: lighter;
 }
 
@@ -51,11 +52,15 @@ a:hover{
 
 section{
     font-family: var(--fonte-poesia);
-    font-size: 30px;
+    font-size: 3.5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -64,14 +69,25 @@ section.normal{
 }
 
 section.imagem{
-    background-color: gray;
+    background-color: #515151;
     color: white;
+    background: gray url() right center/cover no-repeat fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.479);
+}
+
+section#flor{
+    background-image: url(imagens/background001.jpg);
+}
+
+section#papel{
+    background-image: url(imagens/background002.jpg);
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.397);
     padding: 10px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
 footer{
