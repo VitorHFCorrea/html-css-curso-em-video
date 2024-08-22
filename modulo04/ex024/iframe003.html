@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam quod dolor blanditiis fuga esse numquam hic amet! Soluta eveniet quis, voluptatum maxime ab ut corrupti fuga eaque excepturi quaerat.</p>
+
+    <ul>
+        <li><a href="../pags/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="../pags/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="../pags/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, sequi natus? Ullam, molestias. Esse veritatis, quibusdam eos voluptates quidem dolores, quasi fugiat minima molestias autem quod repudiandae minus blanditiis? Et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi alias rerum tempora maiores nesciunt optio recusandae reprehenderit, ut amet, laborum aliquid. Distinctio cum architecto fugit assumenda illo eaque voluptatibus vero?
+    </p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima</h1><p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, sequi natus? Ullam, molestias. Esse veritatis, quibusdam eos voluptates quidem dolores, quasi fugiat minima molestias autem quod repudiandae minus blanditiis? Et. </p>" frameborder="1">
+        Infelizmente, seu navegador não é compatível com isso.
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, sequi natus? Ullam, molestias. Esse veritatis, quibusdam eos voluptates quidem dolores, quasi fugiat minima molestias autem quod repudiandae minus blanditiis? Et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi alias rerum tempora maiores nesciunt optio recusandae reprehenderit, ut amet, laborum aliquid. Distinctio cum architecto fugit assumenda illo eaque voluptatibus vero?
+    </p>
+</body>
+</html>
